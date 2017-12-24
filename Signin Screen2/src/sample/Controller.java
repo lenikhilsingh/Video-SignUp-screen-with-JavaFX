@@ -20,7 +20,8 @@ public class Controller implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-
+        
+// add the video link of your choice.
         Media media = new Media(new File("C:\\Users\\Nikhil\\IdeaProjects\\Signin Screen2\\src\\sample\\video.mp4").toURI().toString());
         MediaPlayer player= new MediaPlayer(media);
         mediaView.setMediaPlayer(player);
